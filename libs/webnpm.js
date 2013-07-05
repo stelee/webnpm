@@ -3,7 +3,7 @@ webnpm
 
 A simple javascript package management tool
 
-version 1.0
+version 1.2
 
 author: liyang
 
@@ -17,7 +17,7 @@ webnpm.config={
 	pathProvider:function(path){
 		return path;
 	},
-	autoAddPostfix:true;
+	autoAddPostfix:true
 }
 
 webnpm.define=function(fn){
